@@ -1,0 +1,602 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-col|or: #0D1117; */
+}
+#black{
+    background-color: #0D1117;
+    height: 1400px;
+    width: 100vw;
+    /* width: 100%; */
+}
+#navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#logoP{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    /* width: 10%; */
+    /* border: 2px solid wheat; */
+}
+#logo{
+    width: 30px;
+    /* margin-left: 40px;
+    margin-top: 20px; */
+}
+#cli{
+    color: #E6EDF3;
+    margin-top: 5px;
+    margin-left: 7px;
+    font-family: sans-serif;
+}
+#cli:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+#text{
+    color: #E6EDF3;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 50px;
+    /* border: 3px solid white; */
+    width: 80%;
+    font-family: sans-serif;
+    justify-content: flex-end;
+}
+#text p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#text p{
+    margin-right: 30px;
+}
+#detail{
+    width: 50%;
+    font-family: sans-serif;
+    /* align-content: center; */
+    margin: auto;
+    margin-bottom: 90px;
+}
+#detail h1{
+    color: #E6EDF3;
+    font-size: 70px;
+    font-weight:800;
+    line-height: 80px;
+    /* word-spacing: 1px;
+    letter-spacing: 1px; */
+}
+#detail h2{
+    margin-top: 20px;
+    color: #6E7681;
+    /* font-size: 25px; */
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+#downldbtn{
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+#downldbtn:hover{
+    cursor: pointer;
+    box-shadow: 0px 20px 50px -15px  gray;
+}
+#instruc{
+    color: #E6EDE5;
+    margin-top: 25px;
+}
+#instruc:hover{
+    cursor: pointer;
+}
+
+#cmdhdg{
+    color: white;
+    font-family: monospace;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#cmdhdg span{
+    color: rgb(50, 50, 220);
+}
+#cmdcnttext{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+#commands{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: black;
+    border-radius: 5px;
+    font-family: monospace;
+}
+#more{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#pouse{
+    float: right;
+    width: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+#pouse:hover{
+    cursor: pointer;
+}
+#commands p{
+    color: white;
+}
+#para{
+    margin-left: 30px;
+    line-height: 25px;
+    font-size: 15px;
+}
+#allcmd{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 800;
+}
+#context{
+    font-family: sans-serif;
+    font-size: 60px;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#white{
+    background-color: white;
+}
+#whitefirst{
+    margin-bottom: 80px;
+}
+#fourdivs{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#div1{
+    width: 25%;
+    
+}
+#div1 p{
+    color: #6E7781;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+#div1 a{
+    text-decoration: none;
+    color: #0981E5;
+    font-size: 12px;
+}
+#div2{
+    width: 25%;
+
+}
+#div2 p{
+    color: #6E7781;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+#div2 a{
+    text-decoration: none;
+    color: #0981E5;
+    font-size: 12px;
+}
+#div3{
+    width: 25%;
+
+}
+#div3 p{
+    color: #6E7781;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+#div3 a{
+    text-decoration: none;
+    color: #0981E5;
+    font-size: 12px;
+}
+#div4{
+    width: 25%;
+
+}
+#div4 p{
+    color: #6E7781;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+#div4 a{
+    text-decoration: none;
+    color: #0981E5;
+    font-size: 12px;
+}
+#texture{
+    position: relative;
+}
+#pattren{
+    height: 400px;
+    width: 100%;
+}
+#commandline{
+    width: 600px;
+    height: 280px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 2px 3px 10px  gray;
+    position: absolute ;
+    left: 20vw;
+    right: 20vw;
+    top: 100px;
+    bottom: 100px;
+    font-family: sans-serif;
+}
+#commandline h1{
+    padding-top: 40px;
+    margin-left: 30px;
+}
+
+#commandline p{
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+#install{
+    color: rgb(42, 42, 203);
+    font-size: 13px;
+}
+#instal:hover{
+    cursor: pointer;
+}
+#downldbtn1{
+    background-image: linear-gradient( #525658,#1B1F23 );
+    color: white;
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#downldbtn1:hover{
+    cursor: pointer;
+}
+#footer{
+    display: flex;
+    justify-content:stretch   ; 
+    margin-top: 30px;
+}
+#footerlogo{
+    width:33%;
+
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+#gitlogo{
+    width: 100px;
+    margin-left: 20px;
+}
+#products{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-family:  sans-serif;
+}
+#products a{
+    color: #6E7781;
+    text-decoration: none;
+    font-size: 12px;
+}
+#products a:hover{
+    text-decoration: underline;
+}
+#platform{
+    display: flex;
+    flex-direction: column; 
+    line-height: 30px;
+    font-family: sans-serif;
+}
+#platform a{
+    color: #6E7781;
+    text-decoration: none;
+    font-size: 12px;
+}
+#platform a:hover{
+    text-decoration: underline;
+}
+#support{
+    display: flex;
+    flex-direction: column; 
+    line-height: 30px;
+    font-family: sans-serif;
+}
+#support a{
+    color: #6E7781;
+    text-decoration: none;
+    font-size: 12px;
+}
+#support a:hover{
+    text-decoration: underline;
+}
+#company{
+    display: flex;
+    flex-direction: column; 
+    line-height: 30px;
+    font-family: sans-serif;
+    margin-right: 60px;
+}
+#company a{
+    color: #6E7781;
+    text-decoration: none;
+    font-size: 12px;
+}
+#company a:hover{
+    text-decoration: underline;
+}
+#icons{
+    background-color: #F6F8FA;
+    width: 100%;
+    height: 70px;
+    margin-top: 80px;
+    display: flex;
+    color: #6E7781;
+    justify-content: space-between;
+}
+#copyright{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+#copyright a{
+    color:#6E7781 ;
+    text-decoration: none;
+    margin-left: 15px;
+}
+#copyright a:hover{
+    text-decoration: underline;
+}
+#icon img{
+    width: 24px;
+    margin-right: 10px;
+}
+#icon{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+@media (min-width:767px) and (max-width:1012px){
+    #black{
+        height: 1200px;
+        /* width: 100%; */
+    }
+    #detail{
+        margin-left: 100px;
+        width: 80%;
+        
+    }
+    #detail h1{
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 800;
+    }
+    #commands{
+        width: 95%;
+    }
+    #context{
+        width: 90%;
+    }
+    #pattren{
+        width: 100%;
+    }
+    #commandline{
+        width: 80%;
+        margin: auto;
+        left: 100px;
+    }
+    #footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #footerlogo{
+        width: 100%;
+    }
+    #links{
+        /* margin-left: 30px; */
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+@media (min-width:543px) and (max-width:767px){
+    #black{
+        width: 110vw;
+        height: 1150px;
+
+    }
+    #detail{
+        margin-left: 30px;
+        width: 90%;
+        
+    }
+    #detail h1{
+        font-size: 35px;
+        /* line-height: 50px; */
+        font-weight: 800;
+    }
+    #detail h2{
+        font-size: 20px;
+    }
+    #commands{
+        width: 95%;
+    }
+    #context{
+        width: 100%;
+        font-size: 30px;
+        font-weight: 800;
+        color: #1F2328;
+        margin-bottom: -30px;
+    }
+    #fourdivs{
+        flex-direction: column;
+    }
+    #fourdivs div{
+        width: 100%;
+        margin-top: 40px;
+    }
+    #fourdivs div p{
+        font-size: 15px;
+    }
+    #fourdivs div h2{
+        font-size: 20px;
+        font-weight: 550;
+    }
+    #pattren{
+        width: 110%;
+    }
+    #commandline{
+        width: 100%;
+        margin: auto;
+        right: 0px;
+        left: 5%;
+    }
+    #footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #links{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    #icons{
+        width: 110%;
+    }
+}
+@media (max-width:542px){
+    #black{
+        width: 130vw;
+        /* height: 270vh; */
+    }
+    #text{
+        margin-right: 0;
+    }
+    #detail{
+        margin-left: 30px;
+        width: 90%;
+    }
+    #detail h1{
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 800;
+    }
+    #detail h2{
+        font-size: 25px;
+    }
+    #commands{
+        width: 95%;
+    }
+    #allcmd{
+        /* text-align: left; */
+        margin-left: 10px;
+        font-weight: 500;
+        /* width: 70%; */
+    }
+    #context{
+        width: 100%;
+        font-size: 30px;
+        font-weight: 800;
+        color: #1F2328;
+        margin-bottom: -30px;
+    }
+    #fourdivs{
+        flex-direction: column;
+    }
+    #fourdivs div{
+        width: 100%;
+        margin-top: 40px;
+    }
+    #fourdivs div p{
+        font-size: 15px;
+    }
+    #fourdivs div h2{
+        font-size: 20px;
+        font-weight: 550;
+    }
+    #pattren{
+        width: 130%;
+    }
+    #commandline{
+        width: 100%;
+        margin-left:7% ;
+        height: 300px;
+        right: 0px;
+        left: 5%;
+    }
+    #footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #links{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+    
+        /* flex-direction: col; */
+        /* justify-content: space-between; */
+    }
+    #products{
+        width: 50%;
+    }
+    #platform{
+        width: 50%;
+    }
+    #support{
+        width: 50%;
+    }
+    #company{
+        width: 50%;
+        margin-right: 0;
+    }
+    #icons{
+        width: 130%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    #icon{
+        margin-left: 60px;
+        /* text-align: center; */
+    }
+
+}
